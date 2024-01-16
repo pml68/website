@@ -18,8 +18,9 @@ body {
   color: #ccc;
   font-family: 'Space Mono', monospace;
   width: 100%;
-  overflow: hidden;
   font-size: clamp($font-min, $font-desired, $font-max);
+  position: fixed;
+  height: 100dvh;
 }
 
 .socials {

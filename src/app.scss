@@ -8,6 +8,8 @@ body {
   background-color: #1e1e2e;
   color: #a6fbb2;
   font-family: 'Rubik', sans-serif;
+  width: 100%;
+  overflow: hidden;
 }
 
 .ii {
@@ -30,4 +32,21 @@ body {
   overflow: hidden;
   width: 100%;
   z-index: 100;
+}
+
+.wave {
+  position: absolute;
+  top: 0;
+  max-width: 100vw;
+  max-height: 100vh;
+}
+
+.wave1 {
+  left: 0;
+  transform: rotate(-45deg) translate(-30%, -80%);
+}
+
+.wave2 {
+  right: 0;
+  transform: rotate(45deg) translate(50%, -90%);
 }

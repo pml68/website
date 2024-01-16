@@ -1,0 +1,16 @@
+{
+  "socials": [
+    {
+      "link": "https://github.com/pml68",
+      "icon": "fa-github"
+    },
+    {
+      "link": "https://dev.to/pml68",
+      "icon": "fa-dev"
+    },
+    {
+      "link": "https://steamcommunity.com/id/nigmaballs",
+      "icon": "fa-steam"
+    }
+  ]
+}

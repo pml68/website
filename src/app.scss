@@ -1,3 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
+
+$font-min: 16px;
+$font-desired: 2.6vh;
+$font-max: 32px;
+
+$icon-desired: 5.5vh;
+$icon-max: 96px;
+
 *{
   box-sizing: border-box;
   margin: 0;
@@ -6,10 +15,30 @@
 
 body {
   background-color: #1e1e2e;
-  color: #a6fbb2;
-  font-family: 'Rubik', sans-serif;
+  color: #ccc;
+  font-family: 'Space Mono', monospace;
   width: 100%;
   overflow: hidden;
+  font-size: clamp($font-min, $font-desired, $font-max);
+}
+
+.socials {
+  margin-top: 10px;
+}
+
+.social-icon {
+  font-size: clamp($font-min, $icon-desired, $icon-max);
+}
+
+a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color .3s ease-in-out;
+
+  :hover {
+    color: #a6fbb2;
+    transition: color .3s ease-in-out;
+  }
 }
 
 .ii {
@@ -25,13 +54,18 @@ body {
 }
 
 .container {
-  height: calc(90dvh - 8dvh);
   display: flex;
+  height: 100dvh;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  width: 100%;
-  z-index: 100;
+  flex-direction: column;
+}
+
+.main {
+  text-align: left;
+  line-height: 1.2;
+  margin: 20px;
 }
 
 .wave {

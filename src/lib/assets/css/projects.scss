@@ -6,7 +6,7 @@ $font-max: 32px;
   padding: 0 10vw;
   display: grid;
   grid-template-columns: repeat(2, minmax(40vw, 1fr));
-  height: 85dvh;
+  height: 80dvh;
   align-items: center;
   justify-items: center;
   overflow: auto;
@@ -32,7 +32,7 @@ $font-max: 32px;
 }
 
 .spacer {
-  height: 15dvh;
+  height: 20dvh;
   display: flex;
   flex-direction: column;
   justify-content: end;

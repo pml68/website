@@ -31,6 +31,6 @@
   </div>
   <br>
   <div class="projects">
-    Check out my projects <a href={base + '/projects'}><b>here ⮞</b></a>
+    Check out my projects <a href={base + '/projects'}><b>here</b></a>
   </div>
 </div>

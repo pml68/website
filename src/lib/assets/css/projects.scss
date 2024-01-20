@@ -1,0 +1,62 @@
+$font-min: 16px;
+$font-desired: 1vw;
+$font-max: 32px;
+
+.project-container {
+  padding: 0 10vw;
+  display: grid;
+  grid-template-columns: repeat(2, minmax(40vw, 1fr));
+  height: 85dvh;
+  align-items: center;
+  justify-items: center;
+  overflow: auto;
+  align-content: center;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+
+  ::-webkit-scrollbar {
+    display: none;
+  }
+}
+
+.project {
+  margin: 30px 15px;
+  font-size: clamp($font-min, $font-desired, $font-max);
+  padding: 25px 10px;
+  display: flex;
+  align-items: center;
+  background: #1e1e2e;
+  transition: transform .3s ease-in-out;
+  border-radius: 2vh;
+  box-shadow: -12px -12px 28px #27273b73, 12px 12px 20px #12121c73;
+}
+
+.spacer {
+  height: 15dvh;
+  display: flex;
+  flex-direction: column;
+  justify-content: end;
+}
+
+.home {
+  font-size: clamp($font-min, 2.5vw, 48px);
+  margin-bottom: 15px;
+}
+
+.project-icon {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 10px;
+}
+
+@media (max-width: 839px) {
+  .project-container {
+    grid-template-columns: minmax(90vw, 1fr);
+    padding: 0 5vw;
+  }
+}
+
+a:hover .project {
+  transform: scale(110%);
+  transition: transform .3s ease-in-out;
+}

@@ -1,0 +1,28 @@
+{
+  "projects": [
+    {
+      "iconLink": "https://raw.githubusercontent.com/Olah-Barbershop/website/master/src/lib/assets/icon.png",
+      "link": "https://github.com/Olah-Barbershop/website/",
+      "title": "Oláh Barbershop",
+      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing."
+    },
+    {
+      "iconLink": "https://raw.githubusercontent.com/Olah-Barbershop/website/master/src/lib/assets/icon.png",
+      "link": "https://github.com/Olah-Barbershop/API",
+      "title": "Oláh Barbershop - API",
+      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing."
+    },
+    {
+      "iconLink": "https://raw.githubusercontent.com/Olah-Barbershop/website/master/src/lib/assets/icon.png",
+      "link": "https://github.com/Olah-Barbershop/website/",
+      "title": "Oláh Barbershop",
+      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing."
+    },
+    {
+      "iconLink": "https://raw.githubusercontent.com/Olah-Barbershop/website/master/src/lib/assets/icon.png",
+      "link": "https://github.com/Olah-Barbershop/website/",
+      "title": "Oláh Barbershop",
+      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing."
+    }
+  ]
+}

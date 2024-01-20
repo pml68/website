@@ -42,18 +42,6 @@ a {
   }
 }
 
-.ii {
-  width: 20vh;
-  height: 20vh;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%,-50%);
-  background-color: #1e1e2e;
-  border-radius: 2vh;
-  box-shadow: -12px -12px 28px #27273b73, 12px 12px 20px #12121c73;
-}
-
 .container {
   display: flex;
   height: 100dvh;
@@ -61,6 +49,7 @@ a {
   justify-content: center;
   overflow: hidden;
   flex-direction: column;
+  width: 100%;
 }
 
 .main {

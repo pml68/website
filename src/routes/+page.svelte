@@ -25,7 +25,7 @@
   <div class="socials">
     {#each socialsList as {link, icon}}
       <a href={link} target="_blank">
-        <i class={'social-icon fa-brands ' + icon}></i>
+        <i class={'social-icon ' + icon}></i>
       </a>
     {/each}
   </div>

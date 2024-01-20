@@ -1,5 +1,7 @@
 <script lang="ts">
   import '../app.scss'
+  import { base } from '$app/paths'
+
   import wave1 from '$lib/assets/wave1.svg'
   import wave2 from '$lib/assets/wave2.svg'
 
@@ -17,18 +19,18 @@
   <title>pml68</title>
 </svelte:head>
 
-<img src={wave1} alt="Wave 1" class="wave wave1">
-<img src={wave2} alt="Wave 2" class="wave wave2">
-<div class="container">
-  <div class="main">
-    <h1>pml68</h1>
-    <p>Just your average IT student</p>
-    <div class="socials">
-      {#each socialsList as {link, icon}}
-        <a href={link} target="_blank">
-          <i class={'social-icon fa-brands ' + icon}></i>
-        </a>
-      {/each}
-    </div>
+<div class="main">
+  <h1>pml68</h1>
+  <p>Just your average IT student</p>
+  <div class="socials">
+    {#each socialsList as {link, icon}}
+      <a href={link} target="_blank">
+        <i class={'social-icon fa-brands ' + icon}></i>
+      </a>
+    {/each}
+  </div>
+  <br>
+  <div class="projects">
+    Check out my projects <a href={base + '/projects'}><b>here ⮞</b></a>
   </div>
 </div>

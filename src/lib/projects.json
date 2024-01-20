@@ -4,25 +4,25 @@
       "iconLink": "https://raw.githubusercontent.com/Olah-Barbershop/website/master/src/lib/assets/icon.png",
       "link": "https://github.com/Olah-Barbershop/website/",
       "title": "Oláh Barbershop",
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing."
+      "description": "The website of Oláh Barbershop, built with SvelteKit"
     },
     {
       "iconLink": "https://raw.githubusercontent.com/Olah-Barbershop/website/master/src/lib/assets/icon.png",
       "link": "https://github.com/Olah-Barbershop/API",
       "title": "Oláh Barbershop - API",
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing."
+      "description": "The API used for the Oláh Barbershop app and website"
+    },
+    {
+      "iconLink": "https://raw.githubusercontent.com/pml68/website/master/static/pml68.png",
+      "link": "https://github.com/pml68/website/",
+      "title": "pml68",
+      "description": "My personal website - this one -, built with SvelteKit"
     },
     {
       "iconLink": "https://raw.githubusercontent.com/Olah-Barbershop/website/master/src/lib/assets/icon.png",
-      "link": "https://github.com/Olah-Barbershop/website/",
-      "title": "Oláh Barbershop",
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing."
-    },
-    {
-      "iconLink": "https://raw.githubusercontent.com/Olah-Barbershop/website/master/src/lib/assets/icon.png",
-      "link": "https://github.com/Olah-Barbershop/website/",
-      "title": "Oláh Barbershop",
-      "description": "Lorem ipsum dolor sit amet, qui minim labore adipisicing."
+      "link": "https://github.com/Olah-Barbershop/app/",
+      "title": "Oláh Barbershop - App",
+      "description": "The Oláh Barbershop app for Android (WIP)"
     }
   ]
 }

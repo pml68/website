@@ -13,10 +13,10 @@ $font-max: 32px;
   align-content: center;
   -ms-overflow-style: none;
   scrollbar-width: none;
+}
 
-  ::-webkit-scrollbar {
-    display: none;
-  }
+.project-container::-webkit-scrollbar {
+  display: none;
 }
 
 .project {

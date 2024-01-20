@@ -10,6 +10,7 @@ $font-max: 32px;
   align-items: center;
   justify-items: center;
   overflow: auto;
+  align-content: center;
   -ms-overflow-style: none;
   scrollbar-width: none;
 }
@@ -52,6 +53,7 @@ $font-max: 32px;
   .project-container {
     grid-template-columns: minmax(90vw, 1fr);
     padding: 0 5vw;
+    align-content: normal;
   }
 }
 

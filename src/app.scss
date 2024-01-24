@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
 
 $font-min: 16px;
-$font-desired: 2.6vh;
+$font-desired: calc((2.6vh + 8vw) / 2);
 $font-max: 32px;
 
-$icon-desired: 5.5vh;
+$icon-desired: calc((8vh + 5vw) / 2);
 $icon-max: 96px;
 
 *{

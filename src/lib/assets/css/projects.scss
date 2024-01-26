@@ -20,7 +20,7 @@ $font-max: 32px;
 }
 
 .project {
-  margin: 30px 15px;
+  margin: 15px 15px;
   font-size: clamp($font-min, $font-desired, $font-max);
   padding: 25px 10px;
   display: flex;

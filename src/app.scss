@@ -4,7 +4,8 @@ $font-min: 16px;
 $font-desired: calc((2.6vh + 8vw) / 2);
 $font-max: 32px;
 
-$icon-desired: calc((8vh + 5vw) / 2);
+$icon-min: 50px;
+$icon-desired: calc((3.25vh + 10vw) / 2);
 $icon-max: 96px;
 
 *{
@@ -28,7 +29,7 @@ body {
 }
 
 .social-icon {
-  font-size: clamp($font-min, $icon-desired, $icon-max);
+  font-size: clamp($icon-min, $icon-desired, $icon-max);
 }
 
 a {

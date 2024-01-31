@@ -1,10 +1,6 @@
 <script lang="ts">
   import '../app.scss'
   import { base } from '$app/paths'
-
-  import wave1 from '$lib/assets/wave1.svg'
-  import wave2 from '$lib/assets/wave2.svg'
-
   import { socials } from '$lib/socials.json'
 
   type Social = {

@@ -36,6 +36,7 @@ $font-max: 32px;
   display: flex;
   flex-direction: column;
   justify-content: end;
+  z-index: 30;
 }
 
 .home {

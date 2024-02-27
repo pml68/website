@@ -9,15 +9,17 @@
   import TelegramIcon from '$lib/assets/telegram.svg?src'
   import EnvelopeIcon from '$lib/assets/envelope.svg?src'
 
+  const icons: string[] = [SteamIcon, GithubIcon, DevIcon, TelegramIcon, EnvelopeIcon]
+
   type Social = {
     link: string,
-    icon: string
+    iconIndex: number
   }
 
   const socialsList: Social[] = socials
 
-  const insertIcon: Function = (element: HTMLElement, icon: string) => {
-    element.innerHTML = eval(`${icon}Icon`)
+  const insertIcon: Function = (element: HTMLElement, iconIndex: string) => {
+    element.innerHTML = icons[iconIndex]
   }
 </script>
 
@@ -29,8 +31,8 @@
   <h1>pml68</h1>
   <p>Just your average IT student</p>
   <div class="socials">
-    {#each socialsList as {link, icon}}
-      <a use:insertIcon={icon} href={link} target="_blank" class="icon"></a>
+    {#each socialsList as {link, iconIndex}}
+      <a use:insertIcon={iconIndex} href={link} target="_blank" class="icon"></a>
     {/each}
   </div>
   <div class="projects">

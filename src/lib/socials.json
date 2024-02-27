@@ -2,23 +2,23 @@
   "socials": [
     {
       "link": "https://github.com/pml68",
-      "icon": "fab fa-github"
+      "icon": "Github"
     },
     {
       "link": "https://dev.to/pml68",
-      "icon": "fab fa-dev"
+      "icon": "Dev"
     },
     {
       "link": "https://steamcommunity.com/id/nigmaballs",
-      "icon": "fab fa-steam"
+      "icon": "Steam"
     },
     {
       "link": "https://t.me/pml68_1",
-      "icon": "fab fa-telegram"
+      "icon": "Telegram"
     },
     {
       "link": "mailto:contact@pml68.me",
-      "icon": "fas fa-envelope"
+      "icon": "Envelope"
     }
   ]
 }

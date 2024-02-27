@@ -25,11 +25,11 @@ body {
 }
 
 .socials {
-  margin-top: 10px;
+  margin: 10px 0 4vh;
 }
 
 .social-icon {
-  font-size: clamp($icon-min, $icon-desired, $icon-max);
+  width: clamp($icon-min, $icon-desired, $icon-max);
 }
 
 a {
@@ -41,6 +41,10 @@ a {
     color: #a6fbb2;
     transition: color .45s ease-in-out;
   }
+}
+
+a.icon {
+  margin-right: 2vw;
 }
 
 .container {

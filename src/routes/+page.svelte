@@ -9,7 +9,7 @@
   import TelegramIcon from '$lib/assets/telegram.svg?src'
   import EnvelopeIcon from '$lib/assets/envelope.svg?src'
 
-  const icons: string[] = [SteamIcon, GithubIcon, DevIcon, TelegramIcon, EnvelopeIcon]
+  const icons: string[] = [GithubIcon, DevIcon, SteamIcon, TelegramIcon, EnvelopeIcon]
 
   type Social = {
     link: string,

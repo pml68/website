@@ -1,6 +1,6 @@
 {
   "name": "website",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "My personal website, built with SvelteKit",
   "author": "pml68",
   "license": "GPL-3.0",

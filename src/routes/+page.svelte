@@ -17,10 +17,6 @@
   }
 
   const socialsList: Social[] = socials
-
-  const insertIcon: Function = (element: HTMLElement, iconIndex: string) => {
-    element.innerHTML = icons[iconIndex]
-  }
 </script>
 
 <svelte:head>
@@ -32,9 +28,12 @@
   <p>Just your average IT student</p>
   <div class="socials">
     {#each socialsList as {link, iconIndex}}
-      <a use:insertIcon={iconIndex} href={link} target="_blank" class="icon"></a>
+      <a href={link} target="_blank" class="icon">
+        {@html icons[iconIndex]}
+      </a>
     {/each}
   </div>
+  <br>
   <div class="projects">
     Check out my projects <a href={base + '/projects'}><b>here</b></a>
   </div>

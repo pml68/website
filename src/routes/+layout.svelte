@@ -1,10 +1,10 @@
 <script lang="ts">
-  import '../app.scss'
+  import "../app.scss";
 
-  import WaveLeft from '$lib/assets/wave1.svg?url'
-  import WaveRight from '$lib/assets/wave2.svg?url'
+  import WaveLeft from "$lib/assets/wave1.svg?url";
+  import WaveRight from "$lib/assets/wave2.svg?url";
   interface Props {
-    children?: import('svelte').Snippet;
+    children?: import("svelte").Snippet;
   }
 
   let { children }: Props = $props();

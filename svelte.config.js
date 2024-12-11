@@ -5,9 +5,9 @@ const dev = process.argv.includes('dev')
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
-	preprocess: vitePreprocess(),
-	kit: {
-		adapter: adapter({
+  preprocess: vitePreprocess(),
+  kit: {
+    adapter: adapter({
       pages: 'build',
       assets: 'build',
       fallback: undefined,
@@ -17,7 +17,7 @@ const config = {
     paths: {
       base: dev ? '' : process.env.BASE_PATH
     }
-	}
+  }
 };
 
 export default config

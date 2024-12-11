@@ -3,8 +3,16 @@ import { defineConfig } from 'vite';
 import svg from '@poppanator/sveltekit-svg'
 
 export default defineConfig({
-	plugins: [
+  plugins: [
     sveltekit(),
     svg()
-  ]
+  ],
+  css: {
+    preprocessorOptions: {
+      scss: {
+        api: 'modern',
+        prependData: `@use 'src/app.scss' as *;`,
+      }
+    }
+  }
 });
